@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial;
 }
 
 ul.nav {
@@ -27,7 +28,6 @@ ul.nav li a {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
-  font-family: Arial;
 }
 
 ul.nav li a:hover {
@@ -116,7 +116,7 @@ ul.nav li a:hover {
 .scrolly li {
   position: relative;
   #text-align: center;
-  color: white;
+  color: #737373;
 }
 
 .scrolly p {
