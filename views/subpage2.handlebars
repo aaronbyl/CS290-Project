@@ -1,2 +1,19 @@
 <h1>Favorite Dice</h1>
+<p>Choose your favorite dice and tell us why you love it!</p>
 <form action='http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php' method='GET'>
+  <label for="favoriteDie">Favorite type of die</label>
+  <select name="favoriteDie">
+    < value=''></option>
+    <option value='D20'>D20</option>
+    <option value='D12'>D12</option>
+    <option value='D10'>D10</option>
+    <option value='D8'>D8</option>
+    <option value='D6'>D6</option>
+    <option value='D4'>D4</option>
+  </select>
+  <br><br>
+  <label for="favoriteReason">Why do you love it?</label>
+  <input type="text" name="favoriteReason">
+  <br><br>
+  <button type="submit">Submit</button>
+</form>
