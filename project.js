@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 80);
+app.set('port', 5633);
 app.use('/public',express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
